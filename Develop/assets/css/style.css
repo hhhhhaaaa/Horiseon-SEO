@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    height: 100px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    font-size: 48px;
+    width: 25%;
+    float: left;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+}
+
+a {
+    vertical-align: middle;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.inner-benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.inner-benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inner-benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.inner-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.inner-content img {
+    height: 200px;
+    max-height: 100%;
+}
+
+.inner-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
