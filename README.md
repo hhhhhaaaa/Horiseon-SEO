@@ -7,6 +7,9 @@ Step...
 1.) Download/Clone the website to your local repo.
 2.) Open the HTML file in the web browser of your choice, preferably Chrome.
 
+If you'd prefer to simply view the website, it is up on this following link!
+https://hhhhhaaaa.github.io/Horiseon-SEO/
+
 ## HTML
 A list of the refactors inside the HTML, in order from top to bottom...
 
@@ -44,3 +47,6 @@ Changed folder assets to folder public.
 The Screen Reader Compatibility was tested through the use of the program NVDA. Thank you!
 While the exact image does not look exactly like the final image, as requested by Horiseon, I had figured the client would prefer to have the bottom of their screen to be even with the other.
 If there are any other requests, please ask and I will fix anything right away!
+
+## Final Screenshot
+![Horiseon SEO Final Refactor](/public/images/final-image.png "Horiseon SEO Final Refactor")
