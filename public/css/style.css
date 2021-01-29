@@ -5,9 +5,11 @@
 
 body {
     background-color: #d9dcd6;
+    width: 1519px;
+    /* The exact width of the screen I am currently using. */
 }
 
-.header {
+header {
     height: 100px;
     line-height: 50px;
     vertical-align: middle;
@@ -18,25 +20,28 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     font-size: 48px;
-    width: 25%;
+    width: 20%;
     float: left;
 }
 
 .seo {
     color: #d9dcd6;
+    /* Used to change the "seo" in the header to a gray color. */
 }
 
-.header div {
+header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ul li {
+header nav ul li {
+    line-height: 20px;
     display: inline-block;
     text-align: right;
-    width: 20%;
+    width: 25%;
+    /* Used to help align the individual li elements that link to the sections of the page. */
 }
 
 a {
@@ -49,13 +54,14 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.meeting {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    /* Changed from hero to meeting, as meeting made more sense for the background image title. */
 }
 
 .float-left {
@@ -74,20 +80,43 @@ p {
     margin-left: 20px;
 }
 
+.inner-content {
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding: 50px;
+    height: 330px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /* Condensed all three class tags to the same one as they all were heading towards the same CSS attributes. */
+}
+
+.inner-content img {
+    height: 200px;
+    max-height: 100%;
+}
+
+.inner-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
+    line-height: 25px;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 1050px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 .inner-benefits {
-    margin-bottom: 32px;
+    margin-bottom: 25px;
     color: #ffffff;
+    /* Same as with inner-content, to decrease tediousy. */
 }
 
 .inner-benefits h3 {
@@ -101,32 +130,13 @@ p {
     max-width: 150px;
 }
 
-.inner-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.inner-content img {
-    height: 200px;
-    max-height: 100%;
-}
-
-.inner-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
