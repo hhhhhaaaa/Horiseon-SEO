@@ -49,4 +49,4 @@ While the exact image does not look exactly like the final image, as requested b
 If there are any other requests, please ask and I will fix anything right away!
 
 ## Final Screenshot
-![Horiseon SEO Final Refactor](./public/images/final-image.png "Horiseon SEO Final Refactor")
+![Horiseon SEO Final Refactor](https://github.com/hhhhhaaaa/Horiseon-SEO/blob/main/public/images/final-image.PNG "Horiseon SEO Final Refactor")
